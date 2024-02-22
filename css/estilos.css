@@ -1,0 +1,55 @@
+
+.home{
+    background-color: rgb(152, 107, 194);
+    color: white;
+    text-decoration: none;   
+}
+nav a.home{   
+    border-radius: 10px;
+    padding: 10px;
+}
+nav a.home:hover{
+    background-color:  green;
+    color: pink;
+}
+.enlace{ 
+    text-decoration: none;  
+}
+nav a.enlace{
+    background-color: rgb(81, 255, 0);
+    color: black; 
+    padding: 10px;
+}
+nav a.enlace:hover{
+    background-color: red;
+    color: white;
+}
+
+.imagenes{
+    width: 450px;
+    height: 300px;
+}
+:root{
+    --informacion: pink;
+    --titulo: rgb(98, 190, 218);
+    --titulo_1: #cefc2b;
+    --titulo_3: rgb(230, 227, 105);
+}
+.texto{
+    background-color:  var(--informacion);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tema{
+    background-color:  var(--titulo);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+.tema_1{
+    background-color:  var(--titulo_3);
+    font-family:Arial, Helvetica, sans-serif;
+   
+}
+.texto_1{
+    background-color:  var(--titulo_1);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
